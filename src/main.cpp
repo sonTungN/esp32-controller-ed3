@@ -6,8 +6,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println("Done setting up serial");
-  Serial.println("LED Blinking...");
+  Serial.println("LED Blinking---");
   digitalWrite(2, HIGH);
   delay(1000);
   digitalWrite(2, LOW);
