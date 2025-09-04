@@ -17,8 +17,20 @@ $VENV_PATH/bin/pip install -U pip setuptools
 $VENV_PATH/bin/pip install poetry
 ```
 
-3. Install dependencies
+3. Activate your environment
+
+```bash
+source $VENV_PATH/bin/activate
+```
+
+4. Install workspace's dependencies
 
 ```bash
 poetry install
+```
+
+5. Deactivate the environment
+
+```bash
+deactivate
 ```
